@@ -13,4 +13,4 @@ MODO DE USO
 * Resultado: 11.222.333-4
 
 
-Creado por `Gabriel Rodríguez Guzmán` 😁
+Creado por `Gabriel Rodríguez Guzmán` 😁 | [CriptoTI SPA](https://www.criptoti.cl)
