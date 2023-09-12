@@ -9,8 +9,8 @@ INFORMACIÓN
 
 MODO DE USO
 ===========
-* Se debe modificar la variable `$rut` LINEA `26` en los formatos 112223334 o 11222333-4 para que la función `formato_rut` pueda dar formato compatible para usar con `nombrerutyfirma.com`.
-* 11.222.333-4
+* Se debe modificar la variable `$rut` LINEA `26` en los formatos `112223334` o `11222333-4` para que la función `formato_rut` pueda dar formato compatible para usar con `nombrerutyfirma.com`.
+* Resultado: 11.222.333-4
 
 
 Creado por `Gabriel Rodríguez Guzmán` 😁
