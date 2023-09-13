@@ -9,9 +9,9 @@ function formato_rut($rut){
 
     if(strlen($rut) >= 8){
         $exp = explode("-", $rut);
-        if($exp[1]){
+        if(isset($exp[1])){
             $rutsdv = $exp[0];
-            $tdv = $exp[1];
+            $dv = $exp[1];
         }else{
             $rutsdv = substr($rut, 0, -1);
             $dv = substr($rut, -1);
@@ -23,7 +23,7 @@ function formato_rut($rut){
     return 'FORMATO DE RUT INVALIDO';
 }
 
-$rut = '';
+$rut = '17725690-0';
 
 $url = 'https://www.nombrerutyfirma.com/rut?term='.formato_rut($rut);
 
